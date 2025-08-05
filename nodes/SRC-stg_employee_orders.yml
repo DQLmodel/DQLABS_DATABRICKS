@@ -1,0 +1,229 @@
+fileVersion: 1
+id: 8191c447-0324-4d20-9d34-b120d1ee3534
+name: stg_employee_orders
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: SRC
+  materializationType: table
+  metadata:
+    appliedNodeTests:
+      - continueOnFailure: true
+        description: ""
+        name: Test
+        runOrder: After
+        templateString: select count(*) from stg_orders
+    columns:
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
+        columnReference:
+          columnCounter: 0cb56d9d-3161-495a-976b-6ce9d1ba8950
+          stepCounter: 8191c447-0324-4d20-9d34-b120d1ee3534
+        config: {}
+        dataType: STRING
+        description: ""
+        name: employee_name
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 75bbf0f3-b412-4659-a651-86a9ae0820bf
+                stepCounter: 481064ca-749a-4cfe-bc12-4d3a891b05ae
+            transform: ""
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
+        columnReference:
+          columnCounter: fdf6c55e-5f9e-48e6-b4b0-3ef0bf929c27
+          stepCounter: 8191c447-0324-4d20-9d34-b120d1ee3534
+        config: {}
+        dataType: INT
+        description: ""
+        name: employee_id
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: cbcbd0f0-7aeb-416d-a09f-4fc8d60eb4c1
+                stepCounter: 481064ca-749a-4cfe-bc12-4d3a891b05ae
+            transform: ""
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
+        columnReference:
+          columnCounter: ae6e10d5-b745-49d5-b2a0-8fa78ba91446
+          stepCounter: 8191c447-0324-4d20-9d34-b120d1ee3534
+        config: {}
+        dataType: DATE
+        description: ""
+        name: hire_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: fb887280-79ab-423e-bf80-e324b2e6f740
+                stepCounter: 481064ca-749a-4cfe-bc12-4d3a891b05ae
+            transform: ""
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
+        columnReference:
+          columnCounter: 37144c6e-ab26-4394-9dfd-0acd95eb1da8
+          stepCounter: 8191c447-0324-4d20-9d34-b120d1ee3534
+        config: {}
+        dataType: STRING
+        description: ""
+        name: flat_no
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 81841818-7eda-4fec-98cd-a3a3b2c2a343
+                stepCounter: 481064ca-749a-4cfe-bc12-4d3a891b05ae
+            transform: ""
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
+        columnReference:
+          columnCounter: 92bbf896-5bfd-454c-8bc8-f75566a21817
+          stepCounter: 8191c447-0324-4d20-9d34-b120d1ee3534
+        config: {}
+        dataType: DOUBLE
+        description: ""
+        name: hike_amount
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0f619724-0064-4e4a-8e1f-1e1d7df8c71e
+                stepCounter: 481064ca-749a-4cfe-bc12-4d3a891b05ae
+            transform: ""
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
+        columnReference:
+          columnCounter: ed4176f6-3b76-4697-b6fd-fd7004308705
+          stepCounter: 8191c447-0324-4d20-9d34-b120d1ee3534
+        config: {}
+        dataType: DOUBLE
+        description: ""
+        name: test
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9f311842-9c7a-4cf0-8785-a7dc387f399a
+                stepCounter: 481064ca-749a-4cfe-bc12-4d3a891b05ae
+            transform: ""
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
+        columnReference:
+          columnCounter: b4ffe894-5b75-47c2-bf57-44d07d3ca4df
+          stepCounter: 8191c447-0324-4d20-9d34-b120d1ee3534
+        config: {}
+        dataType: LONG
+        description: ""
+        name: ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 8fd82772-f7eb-4941-9cd8-2c1791488da3
+                stepCounter: 76121862-ae5b-4c1c-bbac-8b045287f25d
+            transform: ""
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
+        columnReference:
+          columnCounter: f3fac100-2879-4854-b470-3504efab3603
+          stepCounter: 8191c447-0324-4d20-9d34-b120d1ee3534
+        config: {}
+        dataType: LONG
+        description: ""
+        name: USER_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 26d5bd43-4aab-46b0-adc1-1b84f18c9902
+                stepCounter: 76121862-ae5b-4c1c-bbac-8b045287f25d
+            transform: ""
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
+        columnReference:
+          columnCounter: 45118834-ef80-4fe4-aa59-9f7df65aeeb8
+          stepCounter: 8191c447-0324-4d20-9d34-b120d1ee3534
+        config: {}
+        dataType: DATE
+        description: ""
+        name: ORDER_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 587697b9-ac8c-4acb-95b3-0dcc2057be86
+                stepCounter: 76121862-ae5b-4c1c-bbac-8b045287f25d
+            transform: ""
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
+        columnReference:
+          columnCounter: 1ceb053b-e4c2-4a9d-b410-c60c3778e2bb
+          stepCounter: 8191c447-0324-4d20-9d34-b120d1ee3534
+        config: {}
+        dataType: STRING
+        description: ""
+        name: STATUS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: adea1b08-2cd6-4056-9d23-83cf7f43bb9d
+                stepCounter: 76121862-ae5b-4c1c-bbac-8b045287f25d
+            transform: ""
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
+        columnReference:
+          columnCounter: 50929faa-8349-4c86-855d-4f9c8169dba8
+          stepCounter: 8191c447-0324-4d20-9d34-b120d1ee3534
+        config: {}
+        dataType: TIMESTAMP
+        description: ""
+        name: _etl_loaded_at
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ce92d3d7-e7c9-4ff9-833f-677ac511dfd9
+                stepCounter: 76121862-ae5b-4c1c-bbac-8b045287f25d
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs:
+      - hasNull
+      - isDistinct
+    sourceMapping:
+      - aliases:
+          stg_employee: 481064ca-749a-4cfe-bc12-4d3a891b05ae
+          stg_orders: 76121862-ae5b-4c1c-bbac-8b045287f25d
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: SRC
+            nodeName: stg_employee
+          - locationName: SRC
+            nodeName: stg_orders
+        join:
+          joinCondition: |-
+            FROM {{ ref('SRC', 'stg_employee') }} `stg_employee`
+            INNER JOIN {{ ref('SRC', 'stg_orders') }} `stg_orders`
+            ON `stg_employee`.`employee_id` = `stg_orders`.`ID`
+        name: stg_employee_orders
+        noLinkRefs: []
+  name: stg_employee_orders
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node

@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "23"
+mappingDefinitions:
+  SRC:
+    database: main
+    schema: dbo
+  TARGET:
+    database: dqlabs
+    schema: health_qa
+name: Databricks_QA
+type: Environment

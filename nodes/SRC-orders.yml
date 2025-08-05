@@ -1,0 +1,101 @@
+fileVersion: 1
+id: 32da866a-0094-45b1-ba90-e11c9ccbf847
+name: orders
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d8755a1b-c0db-4973-8bdb-149ce1860236
+          stepCounter: 32da866a-0094-45b1-ba90-e11c9ccbf847
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a50d02d4-3903-48f1-be9d-af4d4e02bacb
+          stepCounter: 32da866a-0094-45b1-ba90-e11c9ccbf847
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: USER_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 27cfe613-5780-4f6e-a74b-a3759ad1c96f
+          stepCounter: 32da866a-0094-45b1-ba90-e11c9ccbf847
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: ORDER_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0693143d-0993-4aa5-a953-5790545c29b2
+          stepCounter: 32da866a-0094-45b1-ba90-e11c9ccbf847
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: STATUS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a4bc266a-7399-4b8b-b2f3-645ea81e943f
+          stepCounter: 32da866a-0094-45b1-ba90-e11c9ccbf847
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        name: _etl_loaded_at
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: orders
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
