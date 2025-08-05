@@ -1,0 +1,373 @@
+fileVersion: 1
+id: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+name: bankclient
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 757254b1-3935-4856-8fd1-478cf4c66e68
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: ADDRESS_1
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9d778d6a-7eff-4861-be6f-83a66a1ca9a0
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: ADDRESS_2
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c786a266-4808-4633-9185-cd4630756e85
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: AGE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a4b91375-c18f-4a0f-95eb-1a60a56ff206
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: CITY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4d8e0828-16ef-4ec2-8a81-a9e1eb7b8946
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: CLIENT_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b3eafa8a-7fc2-41cc-8344-7daf64aa1e7f
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: DAY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 343f8fd3-6f56-4b62-b932-b9b10fd4a368
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: DISTRICT_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 51ed02dc-0cfb-42e7-ba0d-aa84b53b9eae
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: EMAIL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 741257ce-92da-401d-aa04-a09777b97557
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: FIRST
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 820289bc-a8df-448b-a01b-86265a2cc197
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: FULLDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: af4b2d39-396c-4e56-8fc2-9e976bae9a93
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: LAST
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c5498412-73bf-48d6-8169-1fcb87cc9c7e
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: MIDDLE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 829cbde2-6968-4744-a17e-ed9a4a27915e
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: MONTH
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cab81fc2-5eeb-483e-8e4e-444afd276626
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: PHONE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 442ffe2c-7c28-40ae-b84c-c305a8bda65a
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: SEX
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ca851992-4f36-4a9f-a8c5-240aadc8fc6c
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: SOCIAL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2a870702-a07e-4c2f-a237-ff7aedadd4ab
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: STATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 87b7306d-87e8-4284-8bda-6c647735740f
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: YEAR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 86afdfd6-45d5-467d-9ba6-8c1c126dbb9c
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: ZIPCODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 01df03d9-7d6b-41ef-bf95-6f0bbb5412f2
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: ACCOUNT_AMOUNT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fe6fa348-414a-4ec5-bdd7-aad7c89f3749
+          stepCounter: 1ce22ded-7fe3-44f9-83d1-9520d00232bc
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: CLIENT_NUMBER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: bankclient
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

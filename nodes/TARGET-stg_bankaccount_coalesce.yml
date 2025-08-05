@@ -1,0 +1,137 @@
+fileVersion: 1
+id: 2f474f06-3ac6-4b7d-a1dd-788f0b52e402
+name: stg_bankaccount_coalesce
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: TARGET
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: eb3d52b6-4cdf-4871-9f36-4dcdc4d6e96d
+          stepCounter: 2f474f06-3ac6-4b7d-a1dd-788f0b52e402
+        config: {}
+        dataType: STRING
+        description: ""
+        name: ACCOUNT_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 26fd6c1d-72d3-4f99-a155-eb509c78f258
+                stepCounter: 0cb1665a-4c3c-4759-a447-d0c29284afe7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e0be3fe1-f7a2-4e81-8b53-deab221826ec
+          stepCounter: 2f474f06-3ac6-4b7d-a1dd-788f0b52e402
+        config: {}
+        dataType: LONG
+        description: ""
+        name: DAY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9562438e-dd75-4a7c-9195-764997c46388
+                stepCounter: 0cb1665a-4c3c-4759-a447-d0c29284afe7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f250f7c4-7023-4668-bf28-ac6962931461
+          stepCounter: 2f474f06-3ac6-4b7d-a1dd-788f0b52e402
+        config: {}
+        dataType: LONG
+        description: ""
+        name: DISTRICT_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 058c3991-881e-4ce1-bb78-8ddbb14338b5
+                stepCounter: 0cb1665a-4c3c-4759-a447-d0c29284afe7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6efe8990-3aec-4783-934c-06b914cfbb27
+          stepCounter: 2f474f06-3ac6-4b7d-a1dd-788f0b52e402
+        config: {}
+        dataType: STRING
+        description: ""
+        name: FREQUENCY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: da94b548-3668-466c-bd53-851e8cfd539c
+                stepCounter: 0cb1665a-4c3c-4759-a447-d0c29284afe7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7c748b0c-a821-4fa0-a14a-78365e426066
+          stepCounter: 2f474f06-3ac6-4b7d-a1dd-788f0b52e402
+        config: {}
+        dataType: LONG
+        description: ""
+        name: MONTH
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e65fef6d-02e4-46ff-8ae4-5f191ebf48c8
+                stepCounter: 0cb1665a-4c3c-4759-a447-d0c29284afe7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: cf5ce88e-00ee-45d7-812e-6b0882c4c020
+          stepCounter: 2f474f06-3ac6-4b7d-a1dd-788f0b52e402
+        config: {}
+        dataType: DATE
+        description: ""
+        name: PARSEDDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 03773437-d434-46f5-b074-17f1bb2e1ade
+                stepCounter: 0cb1665a-4c3c-4759-a447-d0c29284afe7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 422bfd31-a29e-4968-a76d-d9e440313f0a
+          stepCounter: 2f474f06-3ac6-4b7d-a1dd-788f0b52e402
+        config: {}
+        dataType: LONG
+        description: ""
+        name: YEAR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4f38d051-cc6a-45f4-aacd-838196f136be
+                stepCounter: 0cb1665a-4c3c-4759-a447-d0c29284afe7
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: SRC
+            nodeName: bankaccount
+        join:
+          joinCondition: FROM {{ ref('SRC', 'bankaccount') }} `bankaccount`
+        name: stg_bankaccount_coalesce
+        noLinkRefs: []
+  name: stg_bankaccount_coalesce
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node

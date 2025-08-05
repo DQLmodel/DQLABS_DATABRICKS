@@ -1,6 +1,6 @@
 fileVersion: 1
-id: 4d459053-82ee-4e7e-8d94-e5698f752708
-name: employee
+id: 0cb1665a-4c3c-4759-a447-d0c29284afe7
+name: bankaccount
 operation:
   database: ""
   deployEnabled: true
@@ -13,13 +13,13 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 3b11585c-4edf-42fb-b756-a87f79018646
-          stepCounter: 4d459053-82ee-4e7e-8d94-e5698f752708
+          columnCounter: 26fd6c1d-72d3-4f99-a155-eb509c78f258
+          stepCounter: 0cb1665a-4c3c-4759-a447-d0c29284afe7
         config: {}
         dataType: STRING
         defaultValue: ""
         description: ""
-        name: employee_name
+        name: ACCOUNT_ID
         nullable: true
         sourceColumnReferences:
           - columnReferences: []
@@ -30,13 +30,13 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 7e1a447f-3026-4ce8-ada9-27015553947f
-          stepCounter: 4d459053-82ee-4e7e-8d94-e5698f752708
+          columnCounter: 9562438e-dd75-4a7c-9195-764997c46388
+          stepCounter: 0cb1665a-4c3c-4759-a447-d0c29284afe7
         config: {}
-        dataType: INT
+        dataType: LONG
         defaultValue: ""
         description: ""
-        name: employee_id
+        name: DAY
         nullable: true
         sourceColumnReferences:
           - columnReferences: []
@@ -47,13 +47,64 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 0057d48d-59d6-4d30-b431-e3ff6ac78616
-          stepCounter: 4d459053-82ee-4e7e-8d94-e5698f752708
+          columnCounter: 058c3991-881e-4ce1-bb78-8ddbb14338b5
+          stepCounter: 0cb1665a-4c3c-4759-a447-d0c29284afe7
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: DISTRICT_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: da94b548-3668-466c-bd53-851e8cfd539c
+          stepCounter: 0cb1665a-4c3c-4759-a447-d0c29284afe7
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: FREQUENCY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e65fef6d-02e4-46ff-8ae4-5f191ebf48c8
+          stepCounter: 0cb1665a-4c3c-4759-a447-d0c29284afe7
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: MONTH
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 03773437-d434-46f5-b074-17f1bb2e1ade
+          stepCounter: 0cb1665a-4c3c-4759-a447-d0c29284afe7
         config: {}
         dataType: DATE
         defaultValue: ""
         description: ""
-        name: hire_date
+        name: PARSEDDATE
         nullable: true
         sourceColumnReferences:
           - columnReferences: []
@@ -64,53 +115,19 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: d9a4f17d-3193-4881-aa52-c0b444b34356
-          stepCounter: 4d459053-82ee-4e7e-8d94-e5698f752708
+          columnCounter: 4f38d051-cc6a-45f4-aacd-838196f136be
+          stepCounter: 0cb1665a-4c3c-4759-a447-d0c29284afe7
         config: {}
-        dataType: STRING
+        dataType: LONG
         defaultValue: ""
         description: ""
-        name: flat_no
+        name: YEAR
         nullable: true
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
         transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: f4f13706-69c2-49d2-956d-ef225b0388af
-          stepCounter: 4d459053-82ee-4e7e-8d94-e5698f752708
-        config: {}
-        dataType: DOUBLE
-        defaultValue: ""
-        description: ""
-        name: hike_amount
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences: []
-            transform: ""
-        transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: bc4f9e68-de3a-4f75-b39c-e74e18832ac1
-          stepCounter: 4d459053-82ee-4e7e-8d94-e5698f752708
-        config: {}
-        dataType: DOUBLE
-        defaultValue: ""
-        description: ""
-        name: test
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences: []
-            transform: ""
-        transform: ""
-  name: employee
+  name: bankaccount
   schema: ""
   sqlType: Source
   type: sourceInput
