@@ -1,0 +1,95 @@
+fileVersion: 1
+id: 91ee9d42-afe8-4efe-b154-1fece8e09899
+name: stg_bankdisposition_coalesce
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: TARGET
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 866a03ca-93b9-4b26-920b-a974aa1f51e4
+          stepCounter: 91ee9d42-afe8-4efe-b154-1fece8e09899
+        config: {}
+        dataType: STRING
+        description: ""
+        name: ACCOUNT_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3dd7ff05-974e-4b75-aa01-05d931226ad2
+                stepCounter: 93ed92d7-cee5-4f75-9e12-1e3712321401
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1b307d23-b799-472b-a918-b80bfdcad7ab
+          stepCounter: 91ee9d42-afe8-4efe-b154-1fece8e09899
+        config: {}
+        dataType: STRING
+        description: ""
+        name: CLIENT_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e8bd2a70-80db-474d-ba2d-608e61ba571f
+                stepCounter: 93ed92d7-cee5-4f75-9e12-1e3712321401
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5f527590-c4ae-4cc5-9a03-a0f6c55be15c
+          stepCounter: 91ee9d42-afe8-4efe-b154-1fece8e09899
+        config: {}
+        dataType: STRING
+        description: ""
+        name: DISP_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 91b2a375-de8c-48ad-9661-4e2402adc706
+                stepCounter: 93ed92d7-cee5-4f75-9e12-1e3712321401
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 968e1766-b67e-467f-ad86-d7ef4d9134fd
+          stepCounter: 91ee9d42-afe8-4efe-b154-1fece8e09899
+        config: {}
+        dataType: STRING
+        description: ""
+        name: TYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 01dec416-ddd5-489a-bbc7-66eec88e3004
+                stepCounter: 93ed92d7-cee5-4f75-9e12-1e3712321401
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: SRC
+            nodeName: bankdisposition
+        join:
+          joinCondition: FROM {{ ref('SRC', 'bankdisposition') }} `bankdisposition`
+        name: stg_bankdisposition_coalesce
+        noLinkRefs: []
+  name: stg_bankdisposition_coalesce
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node

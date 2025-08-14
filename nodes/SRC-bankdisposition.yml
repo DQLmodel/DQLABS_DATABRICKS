@@ -1,0 +1,84 @@
+fileVersion: 1
+id: 93ed92d7-cee5-4f75-9e12-1e3712321401
+name: bankdisposition
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3dd7ff05-974e-4b75-aa01-05d931226ad2
+          stepCounter: 93ed92d7-cee5-4f75-9e12-1e3712321401
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: ACCOUNT_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e8bd2a70-80db-474d-ba2d-608e61ba571f
+          stepCounter: 93ed92d7-cee5-4f75-9e12-1e3712321401
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: CLIENT_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 91b2a375-de8c-48ad-9661-4e2402adc706
+          stepCounter: 93ed92d7-cee5-4f75-9e12-1e3712321401
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: DISP_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 01dec416-ddd5-489a-bbc7-66eec88e3004
+          stepCounter: 93ed92d7-cee5-4f75-9e12-1e3712321401
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: TYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: bankdisposition
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
