@@ -7,7 +7,7 @@ operation:
     postSQL: ""
     preSQL: ""
     testsEnabled: true
-    truncateBefore: true
+    truncateBefore: false
   database: ""
   deployEnabled: true
   description: ""
@@ -17,7 +17,9 @@ operation:
   metadata:
     appliedNodeTests: []
     columns:
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: true
+          isDistinct: true
         columnReference:
           columnCounter: 01e30604-5776-4f6d-874c-2a6eff57767f
           stepCounter: 39c351f9-2c86-4820-85b9-66dbbb6904ef
@@ -31,7 +33,9 @@ operation:
               - columnCounter: eb3d52b6-4cdf-4871-9f36-4dcdc4d6e96d
                 stepCounter: 2f474f06-3ac6-4b7d-a1dd-788f0b52e402
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: 8d7863d1-83f8-4111-81a3-b0bb24ffaec7
           stepCounter: 39c351f9-2c86-4820-85b9-66dbbb6904ef
@@ -45,7 +49,9 @@ operation:
               - columnCounter: e0be3fe1-f7a2-4e81-8b53-deab221826ec
                 stepCounter: 2f474f06-3ac6-4b7d-a1dd-788f0b52e402
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: true
+          isDistinct: true
         columnReference:
           columnCounter: 4a0e4911-2ee7-4977-89df-c1a4ad6f2498
           stepCounter: 39c351f9-2c86-4820-85b9-66dbbb6904ef
@@ -59,7 +65,9 @@ operation:
               - columnCounter: f250f7c4-7023-4668-bf28-ac6962931461
                 stepCounter: 2f474f06-3ac6-4b7d-a1dd-788f0b52e402
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: e93168d7-6e35-4906-a020-bc0f65dfc713
           stepCounter: 39c351f9-2c86-4820-85b9-66dbbb6904ef
@@ -73,7 +81,9 @@ operation:
               - columnCounter: 6efe8990-3aec-4783-934c-06b914cfbb27
                 stepCounter: 2f474f06-3ac6-4b7d-a1dd-788f0b52e402
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: 8f8807c6-6f96-4421-9931-c808d3ecba7e
           stepCounter: 39c351f9-2c86-4820-85b9-66dbbb6904ef
@@ -87,7 +97,9 @@ operation:
               - columnCounter: 7c748b0c-a821-4fa0-a14a-78365e426066
                 stepCounter: 2f474f06-3ac6-4b7d-a1dd-788f0b52e402
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: 8167ac5a-9bca-445f-8f36-ae3eca89daaa
           stepCounter: 39c351f9-2c86-4820-85b9-66dbbb6904ef
@@ -101,7 +113,9 @@ operation:
               - columnCounter: cf5ce88e-00ee-45d7-812e-6b0882c4c020
                 stepCounter: 2f474f06-3ac6-4b7d-a1dd-788f0b52e402
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: 2c5549b3-3c1f-4aca-bb89-a3f471d7fa98
           stepCounter: 39c351f9-2c86-4820-85b9-66dbbb6904ef
@@ -115,7 +129,9 @@ operation:
               - columnCounter: 422bfd31-a29e-4968-a76d-d9e440313f0a
                 stepCounter: 2f474f06-3ac6-4b7d-a1dd-788f0b52e402
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: 060f1e49-b826-43bc-a2b2-470793953e6b
           stepCounter: 39c351f9-2c86-4820-85b9-66dbbb6904ef
@@ -129,7 +145,9 @@ operation:
               - columnCounter: 1b307d23-b799-472b-a918-b80bfdcad7ab
                 stepCounter: 91ee9d42-afe8-4efe-b154-1fece8e09899
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: 565353e8-6200-4585-92ef-3178d5e8ccaa
           stepCounter: 39c351f9-2c86-4820-85b9-66dbbb6904ef
@@ -143,7 +161,9 @@ operation:
               - columnCounter: 5f527590-c4ae-4cc5-9a03-a0f6c55be15c
                 stepCounter: 91ee9d42-afe8-4efe-b154-1fece8e09899
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: 4ecb1a44-0880-4952-b48a-076b8fb5b87e
           stepCounter: 39c351f9-2c86-4820-85b9-66dbbb6904ef
@@ -158,23 +178,25 @@ operation:
                 stepCounter: 91ee9d42-afe8-4efe-b154-1fece8e09899
             transform: ""
     cteString: ""
-    enabledColumnTestIDs: []
+    enabledColumnTestIDs:
+      - hasNull
+      - isDistinct
     sourceMapping:
       - aliases:
-          stg_bankaccount: 2f474f06-3ac6-4b7d-a1dd-788f0b52e402
-          stg_bankdisposition: 91ee9d42-afe8-4efe-b154-1fece8e09899
+          stg_bankaccount_coalesce: 2f474f06-3ac6-4b7d-a1dd-788f0b52e402
+          stg_bankdisposition_coalesce: 91ee9d42-afe8-4efe-b154-1fece8e09899
         customSQL:
           customSQL: ""
         dependencies:
           - locationName: TARGET
-            nodeName: stg_bankaccount
+            nodeName: stg_bankaccount_coalesce
           - locationName: TARGET
-            nodeName: stg_bankdisposition
+            nodeName: stg_bankdisposition_coalesce
         join:
           joinCondition: |-
-            FROM {{ ref('TARGET', 'stg_bankaccount') }} `stg_bankaccount`
-            INNER JOIN {{ ref('TARGET', 'stg_bankdisposition') }} `stg_bankdisposition`
-            ON `stg_bankaccount`.`ACCOUNT_ID` = `stg_bankdisposition`.`ACCOUNT_ID`
+            FROM {{ ref('TARGET', 'stg_bankaccount_coalesce') }} `stg_bankaccount_coalesce`
+            INNER JOIN {{ ref('TARGET', 'stg_bankdisposition_coalesce') }} `stg_bankdisposition_coalesce`
+            ON `stg_bankaccount_coalesce`.`ACCOUNT_ID` = `stg_bankdisposition_coalesce`.`ACCOUNT_ID`
         name: stg_bankaccount_bankdisposition_coalesce
         noLinkRefs: []
   name: stg_bankaccount_bankdisposition_coalesce
