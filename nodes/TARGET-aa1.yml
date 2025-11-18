@@ -1,0 +1,203 @@
+fileVersion: 1
+id: 524d1730-e04a-4c36-a3ce-0ee26aea0f4d
+name: aa1
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: TARGET
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c856df3b-3f12-4ada-9233-4614218f59ff
+          stepCounter: 524d1730-e04a-4c36-a3ce-0ee26aea0f4d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: employee_id
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a7720f65-152c-4c7f-8ee4-5c4bdee7f479
+          stepCounter: 524d1730-e04a-4c36-a3ce-0ee26aea0f4d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: first_name
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 216c67c2-ead0-43ab-81af-9452237ca6df
+          stepCounter: 524d1730-e04a-4c36-a3ce-0ee26aea0f4d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: last_name
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bf48b756-813b-4e18-8f20-e605a0ed100d
+          stepCounter: 524d1730-e04a-4c36-a3ce-0ee26aea0f4d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: email
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a53baf6e-67c1-45eb-b060-253660d4cde6
+          stepCounter: 524d1730-e04a-4c36-a3ce-0ee26aea0f4d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: phone
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1cca3d70-4f48-4cc6-afe0-cb77a6a53037
+          stepCounter: 524d1730-e04a-4c36-a3ce-0ee26aea0f4d
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: hire_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ba481c9b-6833-4fce-b500-635de4063a07
+          stepCounter: 524d1730-e04a-4c36-a3ce-0ee26aea0f4d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: department
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2587593d-7978-4211-bb9b-ffdaa283924f
+          stepCounter: 524d1730-e04a-4c36-a3ce-0ee26aea0f4d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: position
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5d5a539b-4d4a-4a03-9e73-a180ac48857f
+          stepCounter: 524d1730-e04a-4c36-a3ce-0ee26aea0f4d
+        config: {}
+        dataType: INT
+        defaultValue: ""
+        description: ""
+        name: salary
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f4ea046c-20af-4e13-b2c3-35e4c6337118
+          stepCounter: 524d1730-e04a-4c36-a3ce-0ee26aea0f4d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: address
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8cda877d-eb24-45e9-8aff-e06993177db0
+          stepCounter: 524d1730-e04a-4c36-a3ce-0ee26aea0f4d
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: status
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: aa1
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

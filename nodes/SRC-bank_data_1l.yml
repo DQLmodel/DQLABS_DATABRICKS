@@ -1,0 +1,101 @@
+fileVersion: 1
+id: e674092c-7f3b-43a9-ae39-930397aeefa2
+name: bank_data_1l
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8dd58574-0c0e-4cba-b3f6-384abe76fdb8
+          stepCounter: e674092c-7f3b-43a9-ae39-930397aeefa2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: CITY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 813e6037-dd7f-493e-9655-3adedc378835
+          stepCounter: e674092c-7f3b-43a9-ae39-930397aeefa2
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: DISTRICT_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4e70311e-352c-4421-b9b1-89aeb9c074b8
+          stepCounter: e674092c-7f3b-43a9-ae39-930397aeefa2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: DIVISION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7009d53c-1acf-48be-bda6-891f09cdc96a
+          stepCounter: e674092c-7f3b-43a9-ae39-930397aeefa2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: STATE_ABBREV
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4f1663c0-42ec-4528-b028-a9d01ea7cddf
+          stepCounter: e674092c-7f3b-43a9-ae39-930397aeefa2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: STATE_NAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: bank_data_1l
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

@@ -1,0 +1,203 @@
+fileVersion: 1
+id: 5d84bb03-61aa-4797-a5c8-d1dee86e81d2
+name: aa3
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: TARGET
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a4ba7b1b-3dc9-4e7e-8026-ae5b7becbba2
+          stepCounter: 5d84bb03-61aa-4797-a5c8-d1dee86e81d2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: tax_id
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ac2ba778-6f91-49bc-bb32-560df4ad5e17
+          stepCounter: 5d84bb03-61aa-4797-a5c8-d1dee86e81d2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: employee_id
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 46b0846f-bc3f-4232-9b67-4a28d4c31dc2
+          stepCounter: 5d84bb03-61aa-4797-a5c8-d1dee86e81d2
+        config: {}
+        dataType: INT
+        defaultValue: ""
+        description: ""
+        name: tax_year
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 08880c99-75a1-42fd-bded-4cdd7874ce9b
+          stepCounter: 5d84bb03-61aa-4797-a5c8-d1dee86e81d2
+        config: {}
+        dataType: INT
+        defaultValue: ""
+        description: ""
+        name: tax_paid
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8e193690-b789-4702-8770-8a9f7e08643c
+          stepCounter: 5d84bb03-61aa-4797-a5c8-d1dee86e81d2
+        config: {}
+        dataType: INT
+        defaultValue: ""
+        description: ""
+        name: tax_due
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fbd0aed0-cf5a-4c0b-b854-4afee9c72eda
+          stepCounter: 5d84bb03-61aa-4797-a5c8-d1dee86e81d2
+        config: {}
+        dataType: INT
+        defaultValue: ""
+        description: ""
+        name: tax_refund
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 04895e4d-0405-485e-b54d-b366c71443f4
+          stepCounter: 5d84bb03-61aa-4797-a5c8-d1dee86e81d2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: filing_status
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: eb8198f1-ac1d-4fca-8206-1f27d10fb8f2
+          stepCounter: 5d84bb03-61aa-4797-a5c8-d1dee86e81d2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: tax_authority
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 29c653d2-7589-4b2c-87be-9774b1f6ce8f
+          stepCounter: 5d84bb03-61aa-4797-a5c8-d1dee86e81d2
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: filing_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b4e84c08-feeb-4939-a7d9-8b82b02d9ddd
+          stepCounter: 5d84bb03-61aa-4797-a5c8-d1dee86e81d2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: comments
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e6c7bc69-edbd-4ab7-a51a-f2c18930ceb4
+          stepCounter: 5d84bb03-61aa-4797-a5c8-d1dee86e81d2
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: status
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: aa3
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
