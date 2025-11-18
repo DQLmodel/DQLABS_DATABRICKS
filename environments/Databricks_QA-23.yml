@@ -1,5 +1,8 @@
 fileVersion: 1
 id: "23"
-mappingDefinitions: {}
+mappingDefinitions:
+  SRC:
+    database: dqlabs
+    schema: dbo
 name: Databricks_QA
 type: Environment
